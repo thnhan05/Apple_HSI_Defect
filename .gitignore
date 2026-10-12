@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# MATLAB temporary files
+*.asv
+*.m~
+
+# IDE files
+.vscode/
+.idea/
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Large raw file > 100MB (GitHub limit)
+# (Da co ban toi uu data/hsi_cube/HSIdata20_sample.mat 75MB chay truc tiep)
+data/hsi_cube/HSIdata20_r1.mat
